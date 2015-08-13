@@ -1,2 +1,4 @@
 # Dicas-Rpi
-That's it!
+
+temp.py
+  Read DS18B20 temperature sensor
