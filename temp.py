@@ -1,3 +1,6 @@
+# read ds18b20 sensor.
+# change witch pin is 1-wire
+
 # sudo nano /boot/config.txt
 # dtoverlay=w1-gpio,gpiopin=26
 
