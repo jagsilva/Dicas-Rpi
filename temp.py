@@ -1,3 +1,6 @@
+# sudo nano /boot/config.txt
+# dtoverlay=w1-gpio,gpiopin=26
+
 #!/usr/bin/python
 def gettemp(id):
   try:
