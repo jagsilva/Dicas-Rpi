@@ -1,3 +1,7 @@
+# Servidor
+# Recebe dados udp na porta 12000
+# cria uma thread e envia os dados por http para um site
+
 import socket
 from thread import *
 import time
