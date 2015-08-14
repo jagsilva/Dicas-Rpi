@@ -3,7 +3,16 @@
 #
 # edit "sudo nano /boot/config.txt" and add this line to the bottom of the file
 # dtoverlay=w1-gpio,gpiopin=26
-
+#
+# Test your sensor:
+# sudo modprobe w1-gpio
+# sudo modprobe w1-therm
+#
+# list the divices
+# ls /sys/bus/w1/devices/
+# acess the device read:
+# cat /sys/bus/w1/devices/28-000004c0002b/w1_slave
+# 
 #!/usr/bin/python
 def gettemp(id):
   try:
