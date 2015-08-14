@@ -1,5 +1,11 @@
 #! /bin/sh
 # /etc/init.d/jagsilvafotos
+# sudo nano /etc/init.d/NameOfYourScript
+# sudo chmod 755 /etc/init.d/jagsilvafotos
+# sudo /etc/init.d/jagsilvafotos start
+# sudo /etc/init.d/jagsilvafotos stop
+# sudo update-rc.d jagsilvafotos defaults
+# sudo update-rc.d -f jagsilvafotos remove
 
 ### BEGIN INIT INFO
 # Provides: jagsilvafotos
