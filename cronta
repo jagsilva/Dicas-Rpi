@@ -1,0 +1,6 @@
+0 1 * * * sudo nohup python /home/pi/empifarma/clientesComprasUpdate.py 2>&1 >/var/log/clientesComprasUpdate.out &
+0 4 * * * sudo nohup python /home/pi/empifarma/sincronizaClientes.py 2>&1 >/home/pi/empifarma/logs/sincronizaClientes.out &
+0 5 * * * sudo nohup python /home/pi/empifarma/clientesCalculaEscalao.py 2>&1 >/home/pi/empifarma/logs/clientesCalculaEscalao.out &
+
+
+@reboot sudo python /home/pi/jaime/udp.py &
